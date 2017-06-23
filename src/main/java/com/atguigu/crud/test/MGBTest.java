@@ -13,6 +13,11 @@ import org.mybatis.generator.exception.InvalidConfigurationException;
 import org.mybatis.generator.exception.XMLParserException;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
+/**
+ * 生成mybatis的逆向工程，bean，dao，mapper
+ * @author Admin
+ *
+ */
 public class MGBTest {
 	public static void main(String[] args) throws Exception, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
 		  List<String> warnings = new ArrayList<String>();
